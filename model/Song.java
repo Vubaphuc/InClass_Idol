@@ -38,5 +38,12 @@ public class Song {
         this.singerSong = singerSong;
     }
 
-
+    @Override
+    public String toString() {
+        return "Song{" +
+                "idSong='" + idSong + '\'' +
+                ", nameSong='" + nameSong + '\'' +
+                ", singerSong='" + singerSong + '\'' +
+                '}';
+    }
 }

@@ -59,4 +59,15 @@ public class Idol {
     public void setGroup(String group) {
         this.group = group;
     }
+
+    @Override
+    public String toString() {
+        return "Idol{" +
+                "nameIdol='" + nameIdol + '\'' +
+                ", idIdol='" + idIdol + '\'' +
+                ", emailIdol='" + emailIdol + '\'' +
+                ", followers=" + followers +
+                ", group='" + group + '\'' +
+                '}';
+    }
 }

@@ -30,9 +30,12 @@ public class IdolModel {
         idol.setEmailIdol(emailIdol);
         idol.setGroup(groupIdol);
         // list người hâm mộ
+        // set dữ liệu cho array list Follower
         ArrayList<Follower>followers = new ArrayList<>();
         followers.add(follower);
         followers.add(follower1);
+        // set dữ liệu array list follower vào hàm idol
+        idol.setFollowers(followers);
         return idol;
     }
 }
